@@ -1,0 +1,19 @@
+Line 2: Column 1 is Empty
+Line 3: Column 2 is Empty
+Line 4: Column 3 is Empty
+Line 5: Column 4 is Empty
+Line 6: Column 5 is Empty
+Line 7: Column 6 is Empty
+Line 8: Column 7 is Empty
+Line 9: Column 8 is Empty
+Line 10: Invalid Year_Released
+Line 11: Global_Sales is not numeric
+Line 12: Critic_Score is not numeric
+Line 14: Column 2 is Empty, Column 3 is Empty
+Line 15: Column 3 is Empty, Column 4 is Empty
+Line 16: Column 4 is Empty
+Line 17: Column 5 is Empty
+Line 19: Column 5 is Empty, Invalid Year_Released
+Line 20: Column 3 is Empty, Column 4 is Empty, Column 5 is Empty
+Line 22: Critic_Score greater than 100
+Line 23: Year_Released out of range, Critic_Score is negative

@@ -1,0 +1,185 @@
+from datetime import date
+from abc import ABC, abstractmethod
+
+class Session(ABC):
+    num = 1
+    def __init__(self, patient, duration, base_rate):
+        self.__session_id = Session.num
+        self.__patient = patient
+        self.__duration = duration
+        self.__base_rate = base_rate
+        Session.num += 1
+        
+    def get_patient(self):
+        return self.__patient
+    
+    def get_duration(self):
+        return self.__duration
+    
+    def get_base_rate(self):
+        return self.__base_rate
+    
+    @abstractmethod
+    def calculate_cost(self):
+        pass
+
+class GeneralTherapy(Session):
+    def __init__(self, patient, duration, base_rate, focus_area):
+        super().__init__(patient, duration, base_rate)
+        self.__focus_area = focus_area
+    
+    def calculate_cost(self):
+        duration = self.get_duration()
+        base_rate = self.get_base_rate()
+        patient = self.get_patient()
+        
+        cost = (duration / 30) * base_rate
+        if patient.getAge() >= 60:
+            cost *= 0.8
+        return round(cost,1) 
+    
+class SportsInjury(Session):
+    def __init__(self, patient, duration, base_rate, sport_type, injury_severity, pro_athlete):
+        super().__init__(patient, duration, base_rate)
+        self.__sport_type = sport_type
+        self.__injury_severity = injury_severity
+        self.__pro_athlete = pro_athlete
+    
+    def calculate_cost(self):
+        duration = self.get_duration()
+        base_rate = self.get_base_rate()
+        patient = self.get_patient()
+        
+        cost = (duration / 30) * base_rate
+        if patient.getAge() >= 60:
+            cost *= 0.8
+            
+        if self.__pro_athlete == True:
+            cost *= 0.2
+        return round(cost,1)
+
+class PostSurgeryRehab(Session):
+    def __init__(self, patient, duration, base_rate, surgery_type):
+        super().__init__(patient, duration, base_rate)
+        self.__surgery_type = surgery_type
+    
+    def calculate_cost(self):
+        duration = self.get_duration()
+        base_rate = self.get_base_rate()
+        patient = self.get_patient()
+        
+        cost = ((duration / 30) * base_rate) * 1.15
+        if patient.getAge() >= 60:
+            cost *= 0.8
+            
+        return round(cost,1)
+
+class PaediatricTherapy(Session):
+    def __init__(self, patient, duration, base_rate, guardian_name):
+        super().__init__(patient, duration, base_rate)
+        self.__guardian_name = guardian_name
+    
+    def calculate_cost(self):
+        duration = self.get_duration()
+        base_rate = self.get_base_rate()
+        patient = self.get_patient()
+        
+        cost = ((duration / 30) * base_rate) *0.9
+        if patient.getAge() >= 60:
+            cost *= 0.8
+            
+        return round(cost,1)
+
+class Patient:
+    number = 1
+    def __init__(self, name, birthdate):
+        self.__patient_id = Patient.number
+        self.__name = name
+        self.__birthdate = birthdate
+        Patient.number += 1
+    
+    @property
+    def patient_id(self):
+        return self.__patient_id
+    
+    def getAge(self):
+        today = date.today()
+        age = today.year - self.__birthdate.year
+        if (today.month, today.day) < (self.__birthdate.month, self.__birthdate.day):
+            age -= 1
+        return age
+    
+    def __str__(self):
+        return f'Patient(id:{self.__patient_id}, name:{self.__name}, age:{self.getAge()})'
+    
+    def __eq__(self, other):
+        return (self.__patient_id == other.__patient_id)
+    
+class ClinicBookingSystem:
+    def __init__(self):
+        self.__patientList = []
+        self.__sessionList = []
+        
+    def add_patient(self, name, birthdate):
+        patient = Patient(name, birthdate)
+        if patient in self.__patientList:
+            return False
+        else:
+            self.__patientList.append(patient)
+            return patient.patient_id
+    
+    def book_session(self, session_type, patient_id, duration, base_rate, **booking_args):
+        patient = self.get_patient(patient_id)
+        if not patient:
+            return False
+        
+        session = None
+        
+        if session_type == 'General':
+            if 'focus_area' not in booking_args:
+                return False
+            else:
+                session = GeneralTherapy(patient, duration, base_rate, booking_args['focus_area'])
+                self.__sessionList.append(session)
+                return True
+            
+        elif session_type == 'Sports':
+            if 'sport_type' not in booking_args or \
+               'injury_severity' not in booking_args or \
+               'pro_athlete' not in booking_args:
+                return False
+            else:
+                session = SportsInjury(patient, duration, base_rate, booking_args['sport_type'],
+                                     booking_args['injury_severity'], booking_args['pro_athlete'])
+                self.__sessionList.append(session)
+                return True
+        
+        elif session_type == 'PostSurgery':
+            if 'surgery_type' not in booking_args:
+                return False
+            else:
+                session = PostSurgeryRehab(patient, duration, base_rate, booking_args['surgery_type'])
+                self.__sessionList.append(session)
+                return True
+            
+        elif session_type == 'Paediatric':
+            if 'guardian_name' not in booking_args:
+                return False
+            else:
+                session = PaediatricTherapy(patient, duration, base_rate, booking_args['guardian_name'])
+                self.__sessionList.append(session)
+                return True
+            
+    def get_patient(self, patient_id):
+        for patient in self.__patientList:
+            if patient.patient_id == patient_id:
+                return patient
+        return False
+    
+    def get_sessions(self, patient_id):
+        sessionFound = []
+        for session in self.__sessionList:
+            if session.get_patient().patient_id == patient_id:
+                sessionFound.append(session)
+        return sessionFound
+        

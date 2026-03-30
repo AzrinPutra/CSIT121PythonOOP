@@ -1,0 +1,158 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\gabri\\OneDrive\\Desktop\\OOD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gabri\\OneDrive\\Desktop\\OOD\\Q1.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Q1.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gabri\\OneDrive\\Desktop\\OOD\\prac.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prac.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gabri\\OneDrive\\Desktop\\OOD\\Assignment 1\\A1.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assignment 1\\A1.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gabri\\OneDrive\\Desktop\\OOD\\Assignment 2\\A2.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assignment 2\\A2.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gabri\\OneDrive\\Desktop\\OOD\\Codes\\Lecture 6_exceptio handling.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Codes\\Lecture 6_exceptio handling.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gabri\\OneDrive\\Desktop\\OOD\\Assignment 3\\A3.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assignment 3\\A3.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gabri\\OneDrive\\Desktop\\OOD\\Codes\\Lecture 6_arg and kwarg.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Codes\\Lecture 6_arg and kwarg.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gabri\\OneDrive\\Desktop\\OOD\\Codes\\Lecture 5 inheritance.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Codes\\Lecture 5 inheritance.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 224,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Q1.py",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\Desktop\\OOD\\Q1.py",
+              "RelativeDocumentMoniker": "Q1.py",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\Desktop\\OOD\\Q1.py",
+              "RelativeToolTip": "Q1.py",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAFkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-11-24T05:33:53.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "prac.py",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\Desktop\\OOD\\prac.py",
+              "RelativeDocumentMoniker": "prac.py",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\Desktop\\OOD\\prac.py*",
+              "RelativeToolTip": "prac.py*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-11-24T05:09:51.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "A3.py",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\Desktop\\OOD\\Assignment 3\\A3.py",
+              "RelativeDocumentMoniker": "Assignment 3\\A3.py",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\Desktop\\OOD\\Assignment 3\\A3.py",
+              "RelativeToolTip": "Assignment 3\\A3.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-11-23T13:42:22.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "A2.py",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\Desktop\\OOD\\Assignment 2\\A2.py",
+              "RelativeDocumentMoniker": "Assignment 2\\A2.py",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\Desktop\\OOD\\Assignment 2\\A2.py",
+              "RelativeToolTip": "Assignment 2\\A2.py",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-11-23T13:42:18.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "A1.py",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\Desktop\\OOD\\Assignment 1\\A1.py",
+              "RelativeDocumentMoniker": "Assignment 1\\A1.py",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\Desktop\\OOD\\Assignment 1\\A1.py",
+              "RelativeToolTip": "Assignment 1\\A1.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-11-23T13:42:05.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Lecture 6_exceptio handling.py",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\Desktop\\OOD\\Codes\\Lecture 6_exceptio handling.py",
+              "RelativeDocumentMoniker": "Codes\\Lecture 6_exceptio handling.py",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\Desktop\\OOD\\Codes\\Lecture 6_exceptio handling.py",
+              "RelativeToolTip": "Codes\\Lecture 6_exceptio handling.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-11-21T17:44:11.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Lecture 6_arg and kwarg.py",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\Desktop\\OOD\\Codes\\Lecture 6_arg and kwarg.py",
+              "RelativeDocumentMoniker": "Codes\\Lecture 6_arg and kwarg.py",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\Desktop\\OOD\\Codes\\Lecture 6_arg and kwarg.py",
+              "RelativeToolTip": "Codes\\Lecture 6_arg and kwarg.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-11-21T17:44:11.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Lecture 5 inheritance.py",
+              "DocumentMoniker": "C:\\Users\\gabri\\OneDrive\\Desktop\\OOD\\Codes\\Lecture 5 inheritance.py",
+              "RelativeDocumentMoniker": "Codes\\Lecture 5 inheritance.py",
+              "ToolTip": "C:\\Users\\gabri\\OneDrive\\Desktop\\OOD\\Codes\\Lecture 5 inheritance.py",
+              "RelativeToolTip": "Codes\\Lecture 5 inheritance.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-11-21T17:44:11.291Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

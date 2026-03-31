@@ -18,8 +18,8 @@ class Rectangle:
     def __eq__(self, other):
         if other is None:
             return False
-        if (
-            isinstance(other, Rectangle) == False
+        if not isinstance(
+            other, Rectangle
         ):  # takes two positionals -> reference and object
             return False
         return self.__length == other.__length and self.__width == other.__width
